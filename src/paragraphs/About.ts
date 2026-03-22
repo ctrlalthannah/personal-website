@@ -1,0 +1,3 @@
+export const aboutText: string[] = [
+    "Hello! I'm Kokod, a passionate software developer with a love for creating innovative solutions. With a background in computer science and a knack for problem-solving, I enjoy building applications that make a difference. When I'm not coding, you can find me exploring new technologies, hiking in nature, or experimenting with new recipes in the kitchen. I'm always eager to learn and collaborate on exciting projects, so feel free to reach out!"
+];
