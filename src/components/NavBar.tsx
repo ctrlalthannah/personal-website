@@ -1,6 +1,4 @@
-import Chip from '@mui/material/Chip';
-import { motion, easeIn, easeOut } from "motion/react";
-import { Box } from "@mui/material";
+import { motion } from "motion/react";
 
 const HeaderChip = ({ label }: { label: string }) => {
   const handleScroll = () => {
@@ -15,7 +13,7 @@ const HeaderChip = ({ label }: { label: string }) => {
       whileHover={{ scale: "1.2" }}
       whileTap={{ scale: "0.8" }}
       animate={{ opacity: 1, scale: 1 }}
-      className='display-flex flex-col'
+      className="display-flex flex-col"
     >
       <div
         className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl justify-center items-center p-2"
@@ -40,11 +38,11 @@ const HeaderChip = ({ label }: { label: string }) => {
 };
 
 export default function NavBar() {
-    return (
-        <nav className=" hidden flex gap-4 mt-6 width-full justify-center items-center sm:flex">
-            <HeaderChip label="<About/>" />
-            <HeaderChip label="<Projects/>" />
-            <HeaderChip label="<Contact/>" />  
-        </nav>
-    );
-}   
+  return (
+    <nav className=" hidden flex gap-4 mt-6 width-full justify-center items-center sm:flex">
+      <HeaderChip label="<About/>" />
+      <HeaderChip label="<Projects/>" />
+      <HeaderChip label="<Contact/>" />
+    </nav>
+  );
+}

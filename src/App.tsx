@@ -1,10 +1,5 @@
-import { useState } from 'react';
-import './App.css';
-import Header from './components/Header';
-import NavBar from './components/NavBar';
-import { projectText } from './paragraphs/projectText';
-import { aboutText } from './paragraphs/About';
-import About from './components/About';
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -12,7 +7,7 @@ function App() {
       <Header />
 
       {/* About Section */}
-    <h1>Work in progress...</h1>
+      <h1>Work in progress...</h1>
     </div>
   );
 }
