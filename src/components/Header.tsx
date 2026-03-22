@@ -59,8 +59,22 @@ export default function Header() {
           />
           <NavBar /> {/* Add the NavBar component here */}
           <div className="flex gap-4 justify-center mt-4" style={{ color: '#f8edbe' }}>
-            <LinkedInIcon sx={{fontSize: "50px"}}></LinkedInIcon>
-            <GitHubIcon sx={{fontSize: "50px"}}></GitHubIcon>
+           <a
+              href="https://www.linkedin.com/in/hannah-lindback/"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="LinkedIn"
+            >
+              <LinkedInIcon sx={{ fontSize: "50px", cursor: "pointer" }} />
+            </a>
+                        <a
+              href="https://github.com/hannah-lindback"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="GitHub"
+            >
+              <GitHubIcon sx={{ fontSize: "50px", cursor: "pointer" }} />
+            </a>
           </div>
         </Box>
       </Box>

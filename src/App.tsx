@@ -12,16 +12,7 @@ function App() {
       <Header />
 
       {/* About Section */}
-      <div id="<about/>" style={{padding: '2rem' }}>
-      <About />
-      </div>
-
-
-
-
-
-      {/* Footer */}
-      <div style={{ width: '100%' }}>This is the footer</div>
+    <h1>Work in progress...</h1>
     </div>
   );
 }
