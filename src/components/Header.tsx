@@ -59,6 +59,7 @@ export default function Header() {
           />
           <NavBar /> {/* Add the NavBar component here */}
           <div className="flex gap-4 justify-center mt-4" style={{ color: '#f8edbe' }}>
+             <motion.div whileHover={{ scale: "1.2" }} whileTap={{ scale: "0.8" }} animate={{ opacity: 1, scale: 1 }}>
            <a
               href="https://www.linkedin.com/in/hannah-lindback/"
               target="_blank"
@@ -67,14 +68,20 @@ export default function Header() {
             >
               <LinkedInIcon sx={{ fontSize: "50px", cursor: "pointer" }} />
             </a>
+            </motion.div>
+            <motion.div whileHover={{ scale: "1.2" }} whileTap={{ scale: "0.8" }} animate={{ opacity: 1, scale: 1 }}>
                         <a
               href="https://github.com/hannah-lindback"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
             >
-              <GitHubIcon sx={{ fontSize: "50px", cursor: "pointer" }} />
+              <GitHubIcon sx={{ fontSize: "50px", cursor: "pointer"
+
+              }} />
             </a>
+            </motion.div>
+            
           </div>
         </Box>
       </Box>
